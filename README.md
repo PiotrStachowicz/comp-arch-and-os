@@ -6,7 +6,8 @@ The projects are designed to provide practical experience in low-level programmi
 
 ## Project Structure for Computer Architectures
 
-#### All the programs are as fast as possible (time complexity wise) and also have least amount of instructions
+#### All the programs are as fast as possible (time complexity wise) and also have least amount of instructions. 
+#### These files were core anwser to the problems stated in each project and were purely done by me.
 
 | File Name   | Description                                       |
 |-------------|---------------------------------------------------|
@@ -18,11 +19,12 @@ The projects are designed to provide practical experience in low-level programmi
 | `mod17.s`   | Assembly program that calculates modulus 17 of a given number. |
 | `texture.c` | C program related to texture mapping and graphical data manipulation. |
 | `wbs.s`     | Assembly program counting a weight-balanced bit sum. |
+| `ctarget.l1-l4` | Bytecode files used to manipulate code in order to exploit vulnerabilities. |
+| `solution.txt` | Text file with all the secret phrases used to defuse the bomb. |
 
 ## Project Structure for Operating Systems
 
 ...
 
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+#### The scheme for the individual projects, tests and idea was done by Krystian Bacławski.
