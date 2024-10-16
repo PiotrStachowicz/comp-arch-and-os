@@ -1,0 +1,68 @@
+{
+  "tests": [
+    {
+      "name": "Faza 1",
+      "setup": "",
+      "run": "make test-1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Faza 2",
+      "setup": "",
+      "run": "make test-2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Faza 3",
+      "setup": "",
+      "run": "make test-3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Faza 4",
+      "setup": "",
+      "run": "make test-4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Faza 5",
+      "setup": "",
+      "run": "make test-5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Faza 6",
+      "setup": "",
+      "run": "make test-6",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Faza 7",
+      "setup": "",
+      "run": "make test-7",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

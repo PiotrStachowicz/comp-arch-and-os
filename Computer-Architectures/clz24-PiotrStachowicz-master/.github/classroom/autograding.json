@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "make test-1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "make test-2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "make test-3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "make test-4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test zrandomizowany (maksymalnie 50 instrukcji)",
+      "setup": "",
+      "run": "make test-random",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test zrandomizowany (maksymalnie 50 instrukcji, bez instrukcji skoku warunkowego)",
+      "setup": "",
+      "run": "make test-random BADINSNS='*cnt*,j*,call*'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

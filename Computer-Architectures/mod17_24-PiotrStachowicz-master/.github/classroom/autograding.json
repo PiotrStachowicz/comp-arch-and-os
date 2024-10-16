@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "make test-1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "make test-2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "make test-3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "make test-4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Test zrandomizowany (maksymalnie 50 instrukcji)",
+      "setup": "",
+      "run": "make test-random",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test zrandomizowany (bez instrukcji skoku warunkowego, maksymalnie 35 instrukcji)",
+      "setup": "",
+      "run": "make test-random BADINSNS='*mul*,*div*,*madd*,*msub*,*rem*,*call*,j*' ILIMIT=35",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

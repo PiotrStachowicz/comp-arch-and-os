@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Corectness",
+      "setup": "",
+      "run": "make correct",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Simulation",
+      "setup": "",
+      "run": "make sim",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}

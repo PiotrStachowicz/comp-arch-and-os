@@ -1,0 +1,50 @@
+{
+  "tests": [
+    {
+      "name": "Zadanie 1",
+      "setup": "",
+      "run": "make ctarget-1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }, {
+      "name": "Zadanie 2",
+      "setup": "",
+      "run": "make ctarget-2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }, {
+      "name": "Zadanie 3",
+      "setup": "",
+      "run": "make ctarget-3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }, {
+      "name": "Zadanie 4",
+      "setup": "",
+      "run": "make rtarget-2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }, {
+      "name": "Zadanie 5",
+      "setup": "",
+      "run": "make rtarget-3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    }
+  ]
+}
